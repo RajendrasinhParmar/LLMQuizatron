@@ -1,0 +1,15 @@
+[project]
+name = "test-generation"
+version = "0.1.0"
+description = "A modular Streamlit-based application for generating and managing multiple choice questions (MCQs) with advanced AI-powered features and clean architecture."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "google-generativeai>=0.8.5",
+    "langgraph>=0.5.3",
+    "pathlib2>=2.3.7.post1",
+    "streamlit>=1.46.1",
+    "typing-extensions>=4.14.1",
+    "graphviz>=0.20.1",
+]
